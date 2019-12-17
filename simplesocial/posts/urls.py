@@ -10,4 +10,3 @@ urlpatterns = [
     url(r'by/(?P<username>[-\w]+)/(?<pk>\d+)/$', views.PostDetail.as_view(), name='single'),
     url(r'delete/(?<pk>\d+)/$', views.DeletePost.as_view(), name='delete'),
 ]
- 
